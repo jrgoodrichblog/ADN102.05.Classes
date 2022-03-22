@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>ADN102._05.Classes</RootNamespace>
+    <StartupObject>ADN102_05_Classes.Program</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="sales.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
